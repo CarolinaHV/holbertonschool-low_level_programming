@@ -1,0 +1,1 @@
+# In this project we will work with the gcc compiler and the functions printf, puts and putchar.
