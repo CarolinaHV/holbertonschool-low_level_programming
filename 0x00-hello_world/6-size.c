@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main-using sizeof
- *Write a C program that prints the size of various types
- *Retutn: Value 0
+ * main - using sizeof
+ * Write a C program that prints the size of various types
+ * Return: Value 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	float e;
 
 	printf("Size of a char: %i byte(s)\n", sizeof(a));
-	printf("Size of a int: %i byte(s)\n", sizeof(b));
+	printf("Size of an int: %i byte(s)\n", sizeof(b));
 	printf("Size of a long int: %li byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %li byte(s)\n", sizeof(d));
 	printf("Size of a float: %i byte(s)\n", sizeof(e));
