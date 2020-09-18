@@ -19,11 +19,10 @@ int main(void)
 			putchar(n);
 			putchar(m);
 
-			if (m < 58)
-			{
-				putchar(44);
-				putchar(32);
-			}
+			if (n == 57 && m == 57)
+				break;
+			putchar(44);
+			putchar(32);
 		}
 	}
 	putchar(10);
