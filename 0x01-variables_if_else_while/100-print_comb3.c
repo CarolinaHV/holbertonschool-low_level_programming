@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - Using for, if-else, putchar
- *
  * This program prints all possible different combinations of two digits.
  *
  * Return: Value 0
@@ -19,7 +18,7 @@ int main(void)
 			{
 				putchar(n);
 				putchar(m);
-				if (!(n == 56 && m == 57)
+				if (!(n == 56 && m == 57))
 				{
 					putchar(44);
 					putchar(32);
