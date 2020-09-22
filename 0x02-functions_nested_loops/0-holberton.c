@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- *main - _putchar
+ * main - This program prints Holberton, followed by a new line.
  *
- * This program prints Holberton, followed by a new line.
- *
- * Return: void
+ * Return: value 0
  */
 int main(void)
 {
