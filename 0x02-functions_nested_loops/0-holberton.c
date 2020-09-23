@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+
 /**
  * main - This program prints Holberton, followed by a new line.
  *
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	putchar(72);
+	putchar('H');
 	putchar(111);
 	putchar(108);
 	putchar(98);
