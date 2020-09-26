@@ -26,7 +26,7 @@ void times_table(void)
 			}
 			if (tabla == 0)
 			{
-				_putchar(dig + '0');
+				_putchar(dig +'0');
 			}
 			if (tabla > 0 && tabla < 10)
 			{
