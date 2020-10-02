@@ -7,8 +7,8 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int a = *s1;
-	int b = *s2;
+	int a;
+	int b;
 
 	while (*s1 != '\0' && *s2 != '\0')
 	{
@@ -22,5 +22,7 @@ int _strcmp(char *s1, char *s2)
 			break;
 		}
 	}
+	a = *s1;
+	b = *s2;
 	return (a - b);
 }
