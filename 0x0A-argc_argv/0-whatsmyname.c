@@ -5,10 +5,11 @@
  * @argv: array
  * Return: value 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i = 0;
-	while(i < argc)
+
+	while (i < argc)
 	{
 		printf("%s \n", argv[i]);
 		i++;
