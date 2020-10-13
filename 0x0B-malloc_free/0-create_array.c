@@ -4,7 +4,7 @@
  * and initializes it with a specific char.
  * @size: unsigned int
  * @c: char
- * Return: 
+ * Return: str
  */
 char *create_array(unsigned int size, char c)
 {
