@@ -21,11 +21,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (j <= i)
+	while (j < i)
 	{
 		cpy[j] = str[j];
 		j++;
 	}
-	cpy[j] = '\0';
 	return (cpy);
 }
