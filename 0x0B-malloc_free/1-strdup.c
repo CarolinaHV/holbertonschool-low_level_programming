@@ -11,6 +11,10 @@ char *_strdup(char *str)
 	unsigned int j = 0;
 	char *cpy;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	while (str[i] != 0)
 	{
 		i++;
