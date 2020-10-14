@@ -12,18 +12,19 @@ char *str_concat(char *s1, char *s2)
 	unsigned int k = 0;
 	char *conc;
 
-	if (s1 == NULL && s2 == NULL)
+	if (s1 != NULL)
 	{
-		s1 = NULL;
-		s2 = NULL;
+		while (s1[i] != '\0')
+		{
+			i++;
+		}
 	}
-	while (s1[i] != '\0')
+	if (s2 != NULL)
 	{
-		i++;
-	}
-	while (s2[j] != '\0')
-	{
-		j++;
+		while (s2[j] != '\0')
+		{
+			j++;
+		}
 	}
 	conc = malloc(((i + j) + 1) * sizeof(char));
 	if (conc == NULL)
