@@ -3,7 +3,7 @@
 #include "dog.h"
 /**
  * print_dog - This function prints a struct dog.
- * @d: Ponter struct
+ * @d: Pointer struct
  * Return: void
  */
 void print_dog(struct dog *d)
@@ -12,7 +12,7 @@ void print_dog(struct dog *d)
 	{
 		if (d->name == NULL)
 		{
-			printf("Name (nil)\n");
+			printf("Name: (nil)\n");
 		}
 		else
 		{
