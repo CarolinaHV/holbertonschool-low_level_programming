@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * print_dog - This function prints a struct dog
+ * print_dog - This function prints a struct dog.
  * @d: Ponter struct
  * Return: void
  */
