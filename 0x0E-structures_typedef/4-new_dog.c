@@ -23,7 +23,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 
 	while (name[newN] != '\0')
-		newN++
+		newN++;
 	while (owner[newO] != '\0')
 		newO++;
 
