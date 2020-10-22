@@ -1,7 +1,6 @@
 #include "function_pointers.h"
 /**
- * int_index - That function executes a function given
- * as a parameter on each element of an array.
+ * int_index - This function executes a function given.
  * @array: Array of number.
  * @size: Size of array.
  * @cmp: Pointer of array.
