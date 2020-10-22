@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	a = atoi(argv[2]);
-	b = atoi(argv[2]);
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
 
 	if ((*argv[2] == '/' || *argv[2] == '%') && *argv[3] == 0)
 	{
