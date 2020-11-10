@@ -4,7 +4,7 @@
  * and prints it to the POSIX standard output.
  * @filename: Name of file
  * @letters: Is the size of text
- * Return: value 0
+ * Return: value wrprint
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -14,35 +14,34 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	fd = open(filename, O_RDONLY);
 
-	if(fd == -1)
+	if (fd == -1)
 	{
-		return(0);
+		return (0);
 	}
-	if(filename == NULL)
+	if (filename == NULL)
 	{
-		return(0);
+		return (0);
 	}
 
 	buf = malloc(letters * sizeof(char));
-	if(buf == NULL)
+	if (buf == NULL)
 	{
-		return(0);
+		return (0);
 	}
 
 	readtext = read(fd, buf, letters);
-	if(readtext == -1)
+	if (readtext == -1)
 	{
-		return(0);
+		return (0);
 	}
 	close(fd);
 
 
 	wrprint = write(STDOUT_FILENO, buf, readtext);
 
-	if(wrprint == -1 || readtext != wrprint)
+	if (wrprint == -1 || readtext != wrprint)
 	{
-		return(0);
+		return (0);
 	}
-	
-	return(wrprint);
+	return (wrprint);
 }
