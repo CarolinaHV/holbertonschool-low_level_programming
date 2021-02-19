@@ -1,0 +1,13 @@
+all: holberton
+
+holberton: holberton.o main.o
+	@gcc -o holberton main.o holberton.o
+
+holberton.o: holberton.c m.h
+	@gcc -c holberton.c
+
+main.o: main.c m.h
+	@gcc -c main.c
+
+clear:
+	@rm -f *.o
