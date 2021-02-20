@@ -14,10 +14,10 @@ def island_perimeter(grid):
     if len(grid) < 1:
         return 0
     perimeter = 0
-    ext_y = len(grid) - 1
-    ext_x = len(grid[0]) - 1
-    for x in range(ext_x):
-        for y in range(ext_y):
+    ext_x = len(grid) - 1
+    ext_y = len(grid[0]) - 1
+    for y in range(ext_y + 1):
+        for x in range(ext_x + 1):
             if grid[x][y] == 1:
                 """ UP """
                 if y == 0:
