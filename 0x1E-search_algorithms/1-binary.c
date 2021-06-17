@@ -22,14 +22,13 @@ int binary_search(int *array, size_t size, int value)
 }
 
 /**
- * findes - helper to find a value in an array
+ * finder - helper to find a value in an array
  * @array: int
- * @start: int
- * @end: int
+ * @init: int
+ * @finish: int
  * @value: int
- * Return: int
+ * Return: value int
  */
-
 int finder(int *array, int init, int finish, int value)
 {
 	int mid, x;
